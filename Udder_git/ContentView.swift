@@ -19,7 +19,7 @@ struct ContentView: View {
                 .padding()
                 .frame(height: 80)
                 .overlay {
-                    Text("Hello, cow world!")
+                    Text("The new cow design!")
                         .foregroundColor(.white)
                         .font(.custom("SedgwickAve-Regular", size: 33))
                 }
