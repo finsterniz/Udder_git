@@ -21,7 +21,7 @@ struct ContentView: View {
                 .overlay {
                     Text("The new cow design!")
                         .foregroundColor(.white)
-                        .font(.custom("SedgwickAve-Regular", size: 33))
+                        .font(.custom("SedgwickAve-Regular", size: 40))
                 }
             
             // add a comment
