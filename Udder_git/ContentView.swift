@@ -24,6 +24,7 @@ struct ContentView: View {
                         .font(.custom("SedgwickAve-Regular", size: 33))
                 }
             
+            // add a comment
             Image("milk")
                 .resizable()
                 .frame(width: 200,height: 200)
@@ -33,7 +34,7 @@ struct ContentView: View {
                 .frame(height: 80)
                 .overlay {
                     Text("The new milk design!")
-                        .font(.custom("SedgwickAve-Regular", size: 33))
+                        .font(.custom("SedgwickAve-Regular", size: 40))
                         .foregroundColor(.blue)
                 }
                 .onAppear()
