@@ -15,7 +15,14 @@ struct ContentView: View {
                 .frame(width: 200,height: 200)
                 .aspectRatio(contentMode: .fit)
                 
-            Text("Hello, cow world!")
+            Color(.black)
+                .padding()
+                .frame(height: 80)
+                .overlay {
+                    Text("Hello, cow world!")
+                        .foregroundColor(.white)
+                        .font(.custom("SedgwickAve-Regular", size: 33))
+                }
             
             Image("milk")
                 .resizable()
@@ -26,7 +33,7 @@ struct ContentView: View {
                 .frame(height: 80)
                 .overlay {
                     Text("Hello, milk world!")
-                        .font(.largeTitle)
+                        .font(.custom("SedgwickAve-Regular", size: 33))
                         .foregroundColor(.blue)
                 }
         }
