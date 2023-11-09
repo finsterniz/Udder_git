@@ -36,6 +36,7 @@ struct ContentView: View {
                         .font(.custom("SedgwickAve-Regular", size: 33))
                         .foregroundColor(.blue)
                 }
+                .onAppear()
         }
         .padding()
     }
