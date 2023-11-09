@@ -32,7 +32,7 @@ struct ContentView: View {
                 .padding()
                 .frame(height: 80)
                 .overlay {
-                    Text("Hello, milk world!")
+                    Text("The new milk design!")
                         .font(.custom("SedgwickAve-Regular", size: 33))
                         .foregroundColor(.blue)
                 }
