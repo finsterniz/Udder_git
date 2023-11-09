@@ -16,6 +16,19 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
                 
             Text("Hello, cow world!")
+            
+            Image("milk")
+                .resizable()
+                .frame(width: 200,height: 200)
+                .aspectRatio(contentMode: .fit)
+            Color(.yellow)
+                .padding()
+                .frame(height: 80)
+                .overlay {
+                    Text("Hello, milk world!")
+                        .font(.largeTitle)
+                        .foregroundColor(.blue)
+                }
         }
         .padding()
     }
